@@ -131,8 +131,9 @@ span {
 .container .headerSlider{
     color: #27C7AB;
     height: 404px;
-    line-height: 404px;
+    line-height: 508px;
     font-size: 88px;
+    width: 45px;
 }
 
 .container .headerSlider:nth-of-type(1) {
