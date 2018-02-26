@@ -86,14 +86,14 @@ header {
 }
 
 .container {
-    width: 1061px;
+    width: 1199px;
     height: 100%;
-    margin: 0 auto;
+    margin: 0 77px;
 }
 
 #navBar {
     background: black;
-    height: 40px;
+    height: 41px;
 }
 
 .logo {
@@ -102,6 +102,7 @@ header {
     font-weight: 700;
     line-height: 40px;
     font-size: 15px;
+    margin-left: 67px
 }
 
 .nav {
@@ -110,11 +111,13 @@ header {
     font-weight: 700;
     line-height: 40px;
     font-size: 15px;
+    margin-right: 78px;
 }
 
-li {
+
+.nav ul li {
     display: inline;
-    padding: 18px;
+    margin-left: 43px;
 
 }
 
@@ -124,22 +127,106 @@ span {
 
 #whiteBar {
     background: white;
-    height: 404px;
+    height: 504px;
     width: 100%;
+}
+#whiteBar > .container {
+    background: -webkit-linear-gradient(270deg, rgba(255,255,255,1) 1%, rgba(255,255,255,1) 34%, rgba(212,212,212,1) 100%);
+    position: relative;
 }
 
 .container .headerSlider{
     color: #27C7AB;
-    height: 404px;
+    height: 504px;
     line-height: 508px;
-    font-size: 88px;
-    width: 45px;
+    font-size: 81px;
+    width: 44px;
 }
 
 .container .headerSlider:nth-of-type(1) {
     float: left;
+    padding-left: 68px;
 }
 
 .container .headerSlider:nth-of-type(2) {
     float: right;
+    padding-right: 79px;
+}
+
+#chairImg {
+    background: url("../images/black_chair.png");
+    background-size: cover;
+    height: 420px;
+    width: 500px;
+    background-position: center;
+    position: absolute;
+    left: 75px;
+    top: 68px;
+}
+
+#textHeader {
+    width: 438px;
+    height: 200px;
+    position: absolute;
+    top: 134px;
+    right: 217px;
+    text-align: center;
+}
+
+#textHeader h1 {
+    font-size: 40px;
+}
+
+#textHeader p {
+    margin-top: 30px;
+    line-height: 21px;
+    font-size: 15px;
+    margin-left: 9px;
+    font-weight: 500;
+}
+
+#headerButton {
+    background-color: #27C7AB;
+    border-radius: 5% 5% 5% 5%;
+    text-align: center;
+    height: 52px;
+    width: 265px;
+    margin-left: 94px;
+    margin-top: 31px;
+    color: white;
+    line-height: 52px;
+    font-size: 24px;
+}
+
+#navList {
+    color: white;
+    list-style-type: none;
+    background-color: black;
+    position: absolute;
+    top: 11px;
+    right: 261px;
+    width: 120px;
+    height: 96px;
+}
+
+#navList ul {
+    text-align: left;
+}
+
+#navList ul li {
+    padding: 3px 12px;
+    margin-top: 2px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 13px 10px;
+    border-color: transparent transparent #000000 transparent;
+    position: relative;
+    top: -10px;
+    left: 44px;
 }
