@@ -312,7 +312,7 @@ section:nth-of-type(2) .whiteBar .container {
     position: relative;
 }
 
-.container #cennik {
+.container .cennik {
     color: #606060;
     height: 48px;
     width: 333px;
@@ -323,7 +323,7 @@ section:nth-of-type(2) .whiteBar .container {
     font-weight: 600;
 }
 
-#cennik hr {
+.cennik hr {
     background-color: #27C7AB;
     height: 7px;
     width: 320px;
@@ -585,4 +585,50 @@ h3 + div div p {
     position: absolute;
     top: 160px;
     left: 787px;
+}
+
+#lastSection .whiteBar {
+    height: 444px;
+}
+
+.container .kontakt {
+    color: #606060;
+    height: 48px;
+    width: 333px;
+    font-size: 22px;
+    position: absolute;
+    top: 35px;
+    left: 73px;
+    font-weight: 600;
+}
+
+.kontakt hr {
+    background-color: #27C7AB;
+    height: 7px;
+    width: 320px;
+    margin-top: 5px;
+}
+
+form {
+    position: absolute;
+    top: 119px;
+    left: 73px;
+}
+
+input {
+    border: 1px solid #27C7AB;
+    width: 633px;
+    height: 64px;
+    margin-bottom: 26px;
+    text-align: start;
+    font-size: 34px;
+}
+
+#text {
+    border: 1px solid #27C7AB;
+    width: 633px;
+    height: 186px;
+    margin-bottom: 0;
+    row: 5;
+    cols: 20;
 }
