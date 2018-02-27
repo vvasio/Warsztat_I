@@ -16,69 +16,6 @@
     font-weight: normal;
     font-style: normal;
 }
-/*
-
-
-.container {
-    width: 1061px;
-    height: 100%;
-    margin: 0 auto;
-}
-
-#blackbar {
-    background: black;
-    width: 100%;
-    height: 41px;
-    position: relative;
-}
-
-.main_width {
-    height: 41px;
-    position: absolute;
-
-}
-
-.main_width div:nth-of-type(1) {
-    float: left;
-    color: white;
-    font-weight: 700;
-    line-height: 40px;
-    font-size: 15px;
-}
-
-.main_width div:nth-of-type(2) {
-    float: right;
-    color: white;
-    font-weight: 700;
-    line-height: 40px;
-    font-size: 15px;
-}
-
-#firstLineHeader {
-    background: black;
-    width:100%;
-}
-
-header {
-    width: 100%;
-    height: 545px;
-}
-
-li {
-    display: inline;
-    padding: 18px;
-
-}
-
-span {
-    color: #27C7AB;
-}
-
-#whitebar {
-    background: white;
-    height: 404px;
-    width: 100%;
-}*/
 
 header {
     width: 100%;
@@ -125,12 +62,12 @@ span {
     color: #27C7AB;
 }
 
-#whiteBar {
+.whiteBar {
     background: white;
     height: 504px;
     width: 100%;
 }
-#whiteBar > .container {
+.whiteBar > .container {
     background: -webkit-linear-gradient(270deg, rgba(255,255,255,1) 1%, rgba(255,255,255,1) 34%, rgba(212,212,212,1) 100%);
     position: relative;
 }
@@ -229,4 +166,137 @@ span {
     position: relative;
     top: -10px;
     left: 44px;
+}
+
+section .whiteBar {
+    background: white;
+    width: 100%;
+    height: 348px;
+}
+
+section .whiteBar .container {
+    margin: 0 auto;
+    background: white;
+    position: relative;
+}
+
+#chairClair {
+    background: url("../images/box1_img.jpg");
+    width: 329px;
+    height: 225px;
+    border: 1px solid #D5D5D5;
+    position: absolute;
+    top: 28px;
+    left: 66px;
+}
+
+#chairMargarita {
+    background: url("../images/box2_img.jpg");
+    width: 329px;
+    height: 225px;
+    border: 1px solid #D5D5D5;
+    position: absolute;
+    top: 28px;
+    left: 424px;
+}
+
+#chairDescription {
+    background: white;
+    width: 338px;
+    height: 252px;
+    border: 1px solid #D5D5D5;
+    position: absolute;
+    top: 27px;
+    left: 782px;
+}
+
+#chairMargarita .whiteStripe {
+    background: white;
+    width: 329px;
+    height: 62px;
+    opacity: 0.5;
+    margin-top: 140px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+#chairClair .whiteStripe {
+    background: white;
+    width: 329px;
+    height: 62px;
+    opacity: 0.5;
+    top: 148px;
+    position: absolute;
+    z-index: 1;
+}
+
+#chairClair h2 {
+    position: absolute;
+    color: black;
+    z-index: 2;
+    line-height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 15px;
+    bottom: 29px;
+}
+
+#chairClair hr {
+    background-color: #27C7AB;
+    height: 6px;
+    width: 137px;
+    position: relative;
+    bottom: -181px;
+    left: 15px;
+    z-index: 2;
+}
+
+#chairMargarita h2 {
+    color: black;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px;
+    position: absolute;
+    bottom: 29px;
+    z-index: 2;
+
+}
+
+#chairMargarita hr {
+    background-color: #27C7AB;
+    height: 6px;
+    width: 137px;
+    position: relative;
+    bottom: -181px;
+    left: 15px;
+    z-index: 2;
+}
+
+#chairDescription h2 {
+    color: black;
+    margin-left: 22px;
+    margin-top: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px;
+
+}
+
+#chairDescription hr {
+    background-color: #27C7AB;
+    height: 6px;
+    width: 137px;
+    position: relative;
+    top: -14px;
+    left: 22px;
+}
+
+#chairDescription p {
+    margin-left: 22px;
+    color: gray;
+    font-size: 14px;
+    width: 287px;
+    line-height: 20px;
 }
