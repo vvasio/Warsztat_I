@@ -124,7 +124,7 @@ header {
 
 #headerButton {
     background-color: #27C7AB;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 5px;
     text-align: center;
     height: 52px;
     width: 265px;
@@ -443,7 +443,7 @@ h3 + div div p {
 
 .optionButton {
     background-color: #27C7AB;
-    border-radius: 10% 10% 10% 10%;
+    border-radius: 5px;
     text-align: center;
     height: 35px;
     width: 121px;
@@ -551,7 +551,7 @@ h3 + div div p {
 
 .optionButton {
     background-color: #27C7AB;
-    border-radius: 10% 10% 10% 10%;
+    border-radius: 5px;
     text-align: center;
     height: 35px;
     width: 121px;
@@ -565,7 +565,7 @@ h3 + div div p {
 
 #secondOption .optionButton {
     background-color: white;
-    border-radius: 10% 10% 10% 10%;
+    border-radius: 5px;
     text-align: center;
     height: 35px;
     width: 121px;
@@ -588,7 +588,7 @@ h3 + div div p {
 }
 
 #lastSection .whiteBar {
-    height: 444px;
+    height: 560px;
 }
 
 .container .kontakt {
@@ -611,24 +611,150 @@ h3 + div div p {
 
 form {
     position: absolute;
-    top: 119px;
-    left: 73px;
+    top: 120px;
+    left: 74px;
 }
 
 input {
     border: 1px solid #27C7AB;
     width: 633px;
-    height: 64px;
+    height: 65px;
     margin-bottom: 26px;
-    text-align: start;
     font-size: 34px;
+    padding-left: 11px;
+    box-sizing: border-box;
 }
 
-#text {
+textarea {
     border: 1px solid #27C7AB;
     width: 633px;
-    height: 186px;
-    margin-bottom: 0;
-    row: 5;
-    cols: 20;
+    height: 189px;
+    resize: none;
+    font-size: 34px;
+    padding-left: 11px;
+    padding-top: 11px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #E4E4E4;
+}
+
+.nextTo {
+    position: absolute;
+    top: 299px;
+    left: 689px;
+    width: 343px;
+    height: 71px;
+    border-radius: 5%;
+}
+
+#submit {
+    position: absolute;
+    top: 299px;
+    left: 689px;
+    width: 343px;
+    height: 71px;
+    border-radius: 5px;
+    color: white;
+    background-color: #27C7AB;
+    font-weight: 600;
+}
+
+#checkbox {
+    -webkit-appearance: none;
+    background-color: white;
+    border: 1px solid #27C7AB;
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute;
+    top: 213px;
+    left: 689px;
+    width: 50px;
+    height: 50px;
+}
+
+
+#checkbox:checked {
+    background: url('../images/form_ok.jpg') 0 0 no-repeat; ;
+    border: 1px solid #27C7AB;
+    background-position: center center;
+}
+
+form + p {
+    position: absolute;
+    top: 60%;
+    left: 69%;
+    color: gray;
+    font-size: 19px;
+    height: 5px;
+    width: 295px;
+}
+
+#redChair {
+    background-image: url(../images/red_chair.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 264px;
+    height: 210px;
+    top: 16%;
+    left: 65%;
+}
+
+footer .whiteBar {
+    width: 100%;
+    height: 30px;
+}
+
+footer .whiteBar .container {
+    background: white;
+    line-height: 77px;
+}
+
+#copyright {
+    margin-left: 64px;
+    float: left;
+    font-size: 18px;
+    color: gray;
+    width: 413px;
+}
+
+#footerLogo {
+    margin-right: 76px;
+    float: right;
+    font-size: 21px;
+    color: gray;
+    width: 143px;
+}
+
+#socialLogo {
+    float: right;
+    margin-right: 63px;
+    width: 157px;
+    height: 55px;
+}
+
+#socialLogo div:nth-of-type(1) {
+    background: url("../images/flickr.png");
+}
+
+#socialLogo div:nth-of-type(2) {
+    background: url("../images/vimeo.png");
+}
+
+#socialLogo div:nth-of-type(3) {
+    background: url("../images/pinterest.png");
+}
+
+#socialLogo div:nth-of-type(4) {
+    background: url("../images/twitter.png");
+}
+
+#socialLogo div {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 4px;
 }
