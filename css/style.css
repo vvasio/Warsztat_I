@@ -684,8 +684,8 @@ textarea {
 
 form + p {
     position: absolute;
-    top: 60%;
-    left: 69%;
+    top: 336px;
+    left: 825px;
     color: gray;
     font-size: 19px;
     height: 5px;
@@ -698,8 +698,8 @@ form + p {
     background-repeat: no-repeat;
     width: 264px;
     height: 210px;
-    top: 16%;
-    left: 65%;
+    top: 90px;
+    left: 782px;
 }
 
 footer .whiteBar {
